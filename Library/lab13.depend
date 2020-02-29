@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1558468286 source:c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio i\laboratoris\lab13\lab13\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
