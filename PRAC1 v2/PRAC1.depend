@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1552896272 source:c:\users\deim\desktop\prac1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1552899131 source:c:\users\safia\desktop\prac1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
+1553378268 source:c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio ii\p1\prac1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<time.h>
+
