@@ -1,0 +1,237 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+
+struct Dictionar
+{
+
+    char letraYnum[2];
+    char letraMorse[10];
+
+} d[36];
+
+void menu(void)
+{
+
+    printf("Bienvenido al traductor de morse \n");
+    printf("Para traducir una palabra a morse, preta 1 \n");
+    printf("Para traducir de morse a una palabra, preta 2 \n");
+    printf("Para traducir un fichero a morse preta 3 \n");
+    printf("Para salir pulse cualquier otra tecla \n");
+
+    printf("---------------------------------\n");
+
+}
+
+void lecturaDictionari(struct Dictionar d[]){
+
+FILE* fixDictionari;
+int j=0;
+    char  line[255];
+
+    fixDictionari = fopen("morse.txt", "r");
+    while (fgets(line, sizeof(line), fixDictionari) != NULL)
+    {
+        const char* val1 = strtok(line, " ");
+        const char* val2 = strtok(NULL, "*");
+        strcpy(d[j].letraYnum,val1);
+        strcpy(d[j].letraMorse,val2);
+
+        j++;
+
+        //printf("vALOR 1%s | vALOR 2 %s\n", val1, val2);
+    }
+
+    fclose(fixDictionari);
+
+
+}
+
+void traducirPalabra(struct Dictionar d[])
+{
+
+
+    char texto[10];
+    char letra;
+    int i=0;
+
+    printf("Introduzca una palabra:\n");
+    scanf("%[^\n]s",texto);
+
+
+
+    for( i=0; i<strlen(texto); i++)
+    {
+
+        letra=texto[i];
+
+
+        if(letra==' ')
+        {
+            printf("     ");
+        }
+        //a-z == A-Z
+        if(letra>=97 && letra<=122)
+        {
+            letra=letra-32;
+        }
+
+        //a con accento y asi succesivamente
+        if(letra==160)
+        {
+            letra=97;
+        }
+
+
+
+
+        for(int j=0; j<36; j++)
+        {
+            if(letra==d[j].letraYnum[0] || letra+32==d[j].letraYnum)
+
+            {
+                printf("%s   ",&d[j].letraMorse);
+            }
+
+        }
+
+    }
+
+}
+
+
+int main()
+{
+
+    FILE *fixTraducido;
+    FILE *fixParaTraducir;
+    FILE *fixOriginal;
+    
+    menu();
+
+    fixTraducido = fopen("traducido.txt", "w");
+
+    lecturaDictionari(d);
+
+    traducirPalabra(d);
+    /*
+     fixOriginal = fopen("original.txt", "r");
+    while (fgets(line, sizeof(line), fixOriginal) != NULL)
+    {
+        const char* val1 = strtok(line, "\n");
+        strcpy(texto2,val1);
+
+     for( i=0;i<strlen(texto);i++){
+
+    letra2=texto2[i];
+
+    //printf("Letra %c",letra);
+    //printf("1:%c\n",d[i].letraYnum[0]);
+
+    if(letra2==' '){
+        printf("     ");
+
+    }
+    //a-z == A-Z
+    if(letra2>=97 && letra2<=122){
+        letra2=letra2-32;
+    }
+
+    //a con accento y asi succesivamente
+    if(letra2==160){
+        letra2=97;
+    }
+
+
+
+
+        for(int j=0; j<36; j++)
+        {
+
+            if(letra2==d[j].letraYnum[0] || letra2+32==d[j].letraYnum)
+
+            {
+
+
+                printf("%s   ",d[j].letraMorse);
+
+            }
+
+            // printf("%c\n",texto[i]);
+
+        }
+
+
+    }
+
+
+        printf("\nVALOR 1 %s \n", val1);
+    }
+
+    fclose(fixTraducido);
+
+    */
+
+
+
+    /*random
+
+    /*
+        for(j=0;j<3;j++)
+        {
+            printf("Letra!");
+             scanf("%s",cadena);
+            strncpy(d[j].letraYnum,cadena,strlen(cadena));
+
+        }
+
+
+
+        for(j=0; j<3; j++)
+        {
+
+            printf("Cadena!\n");
+            scanf("%s",cadena);
+
+            strncpy(d[j].letraMorse,cadena,strlen(cadena));
+
+
+        }
+
+
+           for(j=0; j<36; j++)
+        {
+
+            printf("Letra: %s \t Morse: %s \n",d[j].letraYnum,d[j].letraMorse);
+
+
+        }
+
+           /*
+        for(int i=0;i<36;i++){
+            printf("\nLetra %s \n",d[i].letraYnum);
+            printf("morse %s",d[i].letraMorse);
+        }*/
+
+
+    //printf(" Letra de %s  es igual a %s ",d[1].letraYnum,d[1].letraMorse);
+    //printf(" Letra de %s  es igual a %s ",d[0].letraYnum,d[0].letraMorse);
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

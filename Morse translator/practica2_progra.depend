@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1578861572 source:c:\users\yu_an\desktop\scoala\2 year 2019 - 2020\fp 1\practica2_progra\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1578474082 source:c:\users\yu_an\desktop\scoala\2 year 2019 - 2020\fp 1\practica2_progra\menu.c
+	<stdio.h>
+
