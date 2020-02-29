@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579625442 source:c:\users\yu_an\desktop\scoala\2 year 2019 - 2020\fp 1\repaso\ex5-6\doublescan\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579616316 source:c:\users\yu_an\desktop\scoala\2 year 2019 - 2020\fp 1\repaso\ex3\convertirpalabras\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
