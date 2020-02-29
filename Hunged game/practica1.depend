@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1574940450 source:c:\users\yu_an\desktop\scoala\2 year 2019 - 2020\fp 1\practica1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<stdbool.h>
+
