@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1556541362 source:c:\users\safia\desktop\barcos_teu\principal\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1556540935 source:c:\users\safia\desktop\barcos_teu\principal\tipos.c
+	<stdio.h>
+	<stdlib.h>
+
+1556795696 source:c:\users\safia\desktop\barcos_teu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rutinas.h"
+	"tipos.h"
+
+1556791418 c:\users\safia\desktop\barcos_teu\rutinas.h
+
+1556547260 source:c:\users\safia\desktop\barcos_teu\tipos.c
+	<stdio.h>
+	<stdlib.h>
+
+1556795705 source:c:\users\safia\desktop\barcos_teu\rutinas.c
+	<stdio.h>
+	<stdlib.h>
+	"rutinas.h"
+	"tipos.h"
+
+1556795456 c:\users\safia\desktop\barcos_teu\tipos.h
+	<stdio.h>
+	<stdlib.h>
+
+1558794571 source:c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio ii\p2\practica 02-20190515t185606z-001\practica 02\barcos_teu\barcos_teu\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rutinas.h"
+	"tipos.h"
+
+1556791418 c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio ii\p2\practica 02-20190515t185606z-001\practica 02\barcos_teu\barcos_teu\rutinas.h
+
+1558793814 c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio ii\p2\practica 02-20190515t185606z-001\practica 02\barcos_teu\barcos_teu\tipos.h
+	<stdio.h>
+	<stdlib.h>
+
+1558794090 source:c:\users\yu_an\desktop\scoala\1 year  2018 - 2019\2q 2018-2019\fonaments de programacio ii\p2\practica 02-20190515t185606z-001\practica 02\barcos_teu\barcos_teu\rutinas.c
+	<stdio.h>
+	<stdlib.h>
+	"rutinas.h"
+	"tipos.h"
+
