@@ -1,0 +1,15 @@
+
+valor n : 1 		 fibonaci : 1 		 linea fichero: 1   		 bucles : 1 
+valor n : 2 		 fibonaci : 1 		 linea fichero: 2   		 bucles : 4 
+valor n : 3 		 fibonaci : 2 		 linea fichero: 3   		 bucles : 9 
+valor n : 4 		 fibonaci : 3 		 linea fichero: 4   		 bucles : 18 
+valor n : 5 		 fibonaci : 5 		 linea fichero: 5   		 bucles : 33 
+valor n : 6 		 fibonaci : 8 		 linea fichero: 6   		 bucles : 58 
+valor n : 7 		 fibonaci : 13 		 linea fichero: 7   		 bucles : 99 
+valor n : 8 		 fibonaci : 21 		 linea fichero: 8   		 bucles : 166 
+valor n : 9 		 fibonaci : 34 		 linea fichero: 9   		 bucles : 275 
+valor n : 10 		 fibonaci : 55 		 linea fichero: 10   		 bucles : 452 
+valor n : 15 		 fibonaci : 610 		 linea fichero: 11   		 bucles : 2425 
+valor n : 30 		 fibonaci : 832040 		 linea fichero: 12   		 bucles : 2694962 
+Error, Linea del fichero : 13,  este numero no puede tener fibonaci  valor n  : -4 
+Error, Linea del fichero : 14,  este numero no puede tener fibonaci  valor n  : -2 
